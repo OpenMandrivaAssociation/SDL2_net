@@ -11,7 +11,7 @@ License:	ZLib
 Group:		System/Libraries
 Url:		http://www.libsdl.org/projects/SDL_net/
 Source0:	http://www.libsdl.org/projects/SDL_net/release/%{name}-%{version}.tar.gz
-BuildRequires:	pkgconfig(sdl2)
+BuildRequires:	pkgconfig(sdl2) >= 2.0.3
 
 %description
 This is a small sample cross-platform networking library.
