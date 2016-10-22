@@ -6,8 +6,8 @@
 
 Summary:	Simple DirectMedia Layer 2 - network
 Name:		SDL2_net
-Version:	2.0.0
-Release:	6
+Version:	2.0.1
+Release:	1
 License:	ZLib
 Group:		System/Libraries
 Url:		http://www.libsdl.org/projects/SDL_net/
@@ -54,7 +54,7 @@ applications which will use %{name}.
 %setup -q
 
 %build
-%configure2_5x --disable-static
+%configure --disable-static
 %make
 
 %install
