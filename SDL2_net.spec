@@ -2,12 +2,11 @@
 %define api 2.0
 %define libname %mklibname %{name} %{api} %{major}
 %define devname %mklibname %{name} -d
-%define _disable_lto 1
 
 Summary:	Simple DirectMedia Layer 2 - network
 Name:		SDL2_net
 Version:	2.0.1
-Release:	2
+Release:	3
 License:	ZLib
 Group:		System/Libraries
 Url:		http://www.libsdl.org/projects/SDL_net/
@@ -51,12 +50,11 @@ applications which will use %{name}.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q
+%autosetup -p1
+%configure
 
 %build
-%configure --disable-static
-%make
+%make_build
 
 %install
-%makeinstall_std
-
+%make_install
