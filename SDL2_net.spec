@@ -45,6 +45,7 @@ applications which will use %{name}.
 %doc README.txt CHANGES.txt
 %{_libdir}/lib%{name}.so
 %{_libdir}/pkgconfig/*.pc
+%{_libdir}/cmake/SDL2_net/
 %{_includedir}/SDL2/*
 
 #----------------------------------------------------------------------------
