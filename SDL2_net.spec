@@ -5,8 +5,8 @@
 
 Summary:	Simple DirectMedia Layer 2 - network
 Name:		SDL2_net
-Version:	2.0.1
-Release:	3
+Version:	2.2.0
+Release:	1
 License:	ZLib
 Group:		System/Libraries
 Url:		http://www.libsdl.org/projects/SDL_net/
@@ -42,9 +42,10 @@ This package contains the headers that programmers will need to develop
 applications which will use %{name}.
 
 %files -n %{devname}
-%doc README.txt CHANGES.txt COPYING.txt
+%doc README.txt CHANGES.txt
 %{_libdir}/lib%{name}.so
 %{_libdir}/pkgconfig/*.pc
+%{_libdir}/cmake/SDL2_net/
 %{_includedir}/SDL2/*
 
 #----------------------------------------------------------------------------
