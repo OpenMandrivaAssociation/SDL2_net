@@ -42,7 +42,7 @@ This package contains the headers that programmers will need to develop
 applications which will use %{name}.
 
 %files -n %{devname}
-%doc README.txt CHANGES.txt COPYING.txt
+%doc README.txt CHANGES.txt
 %{_libdir}/lib%{name}.so
 %{_libdir}/pkgconfig/*.pc
 %{_includedir}/SDL2/*
