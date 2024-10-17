@@ -9,7 +9,7 @@ Version:	2.2.0
 Release:	2
 License:	ZLib
 Group:		System/Libraries
-Url:		http://www.libsdl.org/projects/SDL_net/
+Url:		https://www.libsdl.org/projects/SDL_net/
 Source0:	http://www.libsdl.org/projects/SDL_net/release/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(sdl2)
 
